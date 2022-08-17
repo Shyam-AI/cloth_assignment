@@ -11,4 +11,4 @@ RUN pip3 install opencv-python
 RUN mkdir /opt/app
 WORKDIR /opt/app
 COPY . /opt/app
-CMD python3 /opt/app/app.py
+ENTRYPOINT FLASK_APP=/opt/app/app.py flask run --host 127.0.0.1
