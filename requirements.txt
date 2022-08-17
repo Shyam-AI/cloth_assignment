@@ -1,0 +1,3 @@
+flask
+object-detection
+Flask-Cors
