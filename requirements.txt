@@ -1,3 +1,5 @@
 flask
 object-detection
 Flask-Cors
+tensorflow==1.14.0
+opencv-python
